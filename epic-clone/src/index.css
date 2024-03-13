@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    height: 100vh;
+    background-color: black;
+}
+
+main{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}

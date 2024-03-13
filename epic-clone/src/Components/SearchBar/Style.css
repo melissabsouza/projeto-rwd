@@ -1,0 +1,26 @@
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: gray;
+    height: 10vh;
+}
+
+.searchBar input{
+    border: none;
+    height: 50%;
+    width: 20%;
+    border-radius: 30px;
+    margin-right: 1vh;
+    background-color: gray;
+}
+
+.searchBar input::placeholder{
+    color: rgb(207, 207, 207);
+}
+
+.searchBar a{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
