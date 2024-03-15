@@ -1,0 +1,18 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#cardImg{
+    width: 100px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#cardTxt{
+    color: white;
+    font-size: 15px;
+}
