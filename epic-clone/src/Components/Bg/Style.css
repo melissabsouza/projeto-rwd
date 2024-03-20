@@ -1,0 +1,39 @@
+.imgGrandona{
+    /* background-image: url("https://www.whatspaper.com/wp-content/uploads/2023/06/my-melody-wallpaper-whatspaper-4.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1, h3{
+    color: white;
+    font-family: Arial;
+    text-shadow: black 4px 4px 4px;
+    margin: 10px;
+}
+
+button{
+    width: 20%;
+    border: none;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 15vh;
+}
+

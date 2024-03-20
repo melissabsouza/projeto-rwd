@@ -1,13 +1,17 @@
-import './Style.css'
-
-const Card = () => {
+import './Style.css';
+ 
+type props = {
+    img: string,
+    title: string
+}
+ 
+const Card = (props:props) => {
     return(
-        
         <div className="card">
-            <img id="cardImg" src="https://www.whatspaper.com/wp-content/uploads/2023/06/my-melody-wallpaper-whatspaper-4.jpg" />
-            <h1 id="cardTxt">texto aqui</h1>
+            <img id="cardImg" src={props.img}/>
+            <h1 id="cardTxt">{props.title}</h1>
         </div>
     )
 }
-
+ 
 export default Card;
